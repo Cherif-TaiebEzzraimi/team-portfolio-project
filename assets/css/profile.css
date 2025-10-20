@@ -178,7 +178,7 @@ body {
 .profile-link {
   display: inline-flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.6rem;
   background: linear-gradient(135deg, #667eea, #764ba2);
   color: white;
   text-decoration: none;
@@ -195,15 +195,11 @@ body {
   box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
 }
 
-.profile-link::after {
-  content: '↗';
-  font-size: 0.9rem;
-  transition: transform 0.3s ease;
-}
+.profile-link.has-icon::after { content: none; }
 
-.profile-link:hover::after {
-  transform: translate(2px, -2px);
-}
+.profile-link svg { opacity: 0.95; }
+
+.profile-link:hover svg { transform: scale(1.05); }
 
 /* Responsive Design */
 @media (max-width: 768px) {
