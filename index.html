@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,24 +6,103 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Team Portfolio</title>
   <link rel="stylesheet" href="assets/css/style.css" />
+
 </head>
 <body>
   <header>
-    <h1>Our Team Portfolio</h1>
+    <div class="header-content">
+      <h1>Our Team Portfolio</h1>
+      <p class="header-subtitle">Meet the talented individuals behind our success</p>
+    </div>
   </header>
 
   <main>
-    <section>
-      <h2>Team Members</h2>
-      <ul id="team-list">
-        <!-- Each member will add one <li> here linking to profiles/<name>.html -->
-          <li><a href="profiles/ahmed-idris-brahmi.html">Ahmed Idris Brahmi </a></li>
-      </ul>
-    </section>
+    <div class="section-header">
+      <h2 class="section-title">Team Members</h2>
+      <p class="section-description">Click on any card to view detailed profile</p>
+    </div>
+
+    <div class="team-grid">
+      <!-- Team Member Card -->
+      <a href="profiles/ahmed-idris-brahmi.html" class="team-card">
+        <div class="card-header">
+          <img src="assets/porfolio_Img/Img-Ahmed-Brahmi.png" alt="Ahmed Idris Brahmi" class="member-photo">
+          <h3 class="member-name">Brahmi Ahmed Idris</h3>
+          <p class="member-role">CS Student</p>
+        </div>
+        <div class="card-body">
+          <p class="member-bio">
+            Passionate about Machine Learning and Artificial Intelligence. Third-year student at ENSIA focused on building impactful tech solutions.
+          </p>
+          <div class="member-skills">
+            <span class="skill-badge">Python</span>
+            <span class="skill-badge">React</span>
+            <span class="skill-badge">Django</span>
+            <span class="skill-badge">Node.js</span>
+          </div>
+        </div>
+        <div class="card-footer">
+          <span>View Full Profile</span>
+          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+          </svg>
+        </div>
+      </a>
+
+      <!-- change one part for every member -->
+
+      <a href="#" class="team-card" style="opacity: 0.6; pointer-events: none;">
+        <div class="card-header">
+          <img src="https://via.placeholder.com/120" alt="Team Member" class="member-photo">
+          <h3 class="member-name">Team Member Name</h3>
+          <p class="member-role">Role/Position</p>
+        </div>
+        <div class="card-body">
+          <p class="member-bio">
+            Brief description of team member interests and focus areas. Add a compelling bio here.
+          </p>
+          <div class="member-skills">
+            <span class="skill-badge">Skill 1</span>
+            <span class="skill-badge">Skill 2</span>
+            <span class="skill-badge">Skill 3</span>
+          </div>
+        </div>
+        <div class="card-footer">
+          <span>View Full Profile</span>
+          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+          </svg>
+        </div>
+      </a>
+
+      <a href="#" class="team-card" style="opacity: 0.6; pointer-events: none;">
+        <div class="card-header">
+          <img src="https://via.placeholder.com/120" alt="Team Member" class="member-photo">
+          <h3 class="member-name">Team Member Name</h3>
+          <p class="member-role">Role/Position</p>
+        </div>
+        <div class="card-body">
+          <p class="member-bio">
+            Brief description of team member interests and focus areas. Add a compelling bio here.
+          </p>
+          <div class="member-skills">
+            <span class="skill-badge">Skill 1</span>
+            <span class="skill-badge">Skill 2</span>
+            <span class="skill-badge">Skill 3</span>
+          </div>
+        </div>
+        <div class="card-footer">
+          <span>View Full Profile</span>
+          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+          </svg>
+        </div>
+      </a>
+    </div>
   </main>
 
   <footer>
-    <p>&copy; Team Portfolio</p>
+    <p>&copy; 2024 Team Portfolio. All rights reserved.</p>
   </footer>
 </body>
 </html>
