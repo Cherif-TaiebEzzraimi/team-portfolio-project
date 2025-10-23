@@ -82,6 +82,29 @@ body {
   position: relative;
 }
 
+/* Profile Photo */
+.profile-photo {
+  margin-bottom: 2rem;
+  animation: fadeInUp 0.6s ease-out 0.1s both;
+}
+
+.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid rgba(255, 255, 255, 0.9);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  padding: 3px;
+}
+
+.profile-image:hover {
+  transform: scale(1.05);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+}
+
 .profile-name {
   font-size: 3rem;
   font-weight: 700;
@@ -220,6 +243,11 @@ body {
     font-size: 1.2rem;
   }
   
+  .profile-image {
+    width: 150px;
+    height: 150px;
+  }
+  
   .profile-section {
     padding: 1.5rem;
   }
@@ -254,6 +282,11 @@ body {
   
   .profile-role {
     font-size: 1rem;
+  }
+  
+  .profile-image {
+    width: 120px;
+    height: 120px;
   }
   
   .profile-section {
