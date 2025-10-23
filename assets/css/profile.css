@@ -1,5 +1,8 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* Reset and Base Styles */
+=======
+>>>>>>> feature/implement-dounia-saighi-profile
 * {
   margin: 0;
   padding: 0;
@@ -76,6 +79,7 @@ body {
   background: linear-gradient(135deg, #667eea, #764ba2);
 }
 
+<<<<<<< HEAD
 /* Profile Header */
 .profile-header {
   text-align: center;
@@ -87,6 +91,17 @@ body {
 .profile-photo {
   margin-bottom: 2rem;
   animation: fadeInUp 0.6s ease-out 0.1s both;
+=======
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.profile-photo {
+  flex-shrink: 0;
+>>>>>>> feature/implement-dounia-saighi-profile
 }
 
 .profile-image {
@@ -101,12 +116,25 @@ body {
   padding: 3px;
 }
 
+<<<<<<< HEAD
+=======
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+>>>>>>> feature/implement-dounia-saighi-profile
 .profile-image:hover {
   transform: scale(1.05);
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
 }
 
 .profile-name {
+<<<<<<< HEAD
+=======
+   text-align: left;
+>>>>>>> feature/implement-dounia-saighi-profile
   font-size: 3rem;
   font-weight: 700;
   background: linear-gradient(135deg, #667eea, #764ba2);
@@ -118,9 +146,17 @@ body {
 }
 
 .profile-role {
+<<<<<<< HEAD
   font-size: 1.5rem;
   color: #666;
   font-weight: 500;
+=======
+    text-align: center;
+  font-size: 1.3rem;
+  color: #555;
+  font-weight: 500;
+  margin : 0; 
+>>>>>>> feature/implement-dounia-saighi-profile
   animation: fadeInUp 0.6s ease-out 0.2s both;
 }
 
@@ -230,11 +266,16 @@ body {
   body {
     padding: 1rem 0;
   }
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> feature/implement-dounia-saighi-profile
   .profile-container {
     margin: 0 1rem;
     padding: 2rem 1.5rem;
   }
+<<<<<<< HEAD
   
   .profile-name {
     font-size: 2.2rem;
@@ -244,10 +285,22 @@ body {
     font-size: 1.2rem;
   }
   
+=======
+
+  .profile-name {
+    font-size: 2.2rem;
+  }
+
+  .profile-role {
+    font-size: 1.2rem;
+  }
+
+>>>>>>> feature/implement-dounia-saighi-profile
   .profile-image {
     width: 150px;
     height: 150px;
   }
+<<<<<<< HEAD
   
   .profile-section {
     padding: 1.5rem;
@@ -265,6 +318,25 @@ body {
     flex-direction: column;
   }
   
+=======
+
+  .profile-section {
+    padding: 1.5rem;
+  }
+
+  .profile-section h3 {
+    font-size: 1.1rem;
+  }
+
+  .profile-section p {
+    font-size: 1rem;
+  }
+
+  .profile-links {
+    flex-direction: column;
+  }
+
+>>>>>>> feature/implement-dounia-saighi-profile
   .profile-link {
     text-align: center;
     justify-content: center;
@@ -276,6 +348,7 @@ body {
     margin: 0 0.5rem;
     padding: 1.5rem 1rem;
   }
+<<<<<<< HEAD
   
   .profile-name {
     font-size: 1.8rem;
@@ -285,10 +358,22 @@ body {
     font-size: 1rem;
   }
   
+=======
+
+  .profile-name {
+    font-size: 1.8rem;
+  }
+
+  .profile-role {
+    font-size: 1rem;
+  }
+
+>>>>>>> feature/implement-dounia-saighi-profile
   .profile-image {
     width: 120px;
     height: 120px;
   }
+<<<<<<< HEAD
   
   .profile-section {
     padding: 1rem;
@@ -298,6 +383,17 @@ body {
     gap: 0.5rem;
   }
   
+=======
+
+  .profile-section {
+    padding: 1rem;
+  }
+
+  .skills-list {
+    gap: 0.5rem;
+  }
+
+>>>>>>> feature/implement-dounia-saighi-profile
   .skill-tag {
     padding: 0.4rem 0.8rem;
     font-size: 0.8rem;
@@ -348,6 +444,7 @@ body {
   50% {
     transform: translateY(-20px) rotate(180deg);
   }
+<<<<<<< HEAD
 }
 =======
   * {
@@ -710,3 +807,6 @@ body {
       }
     }
 >>>>>>> feature/implement-ahmed-idris-brahmi-profile
+=======
+}
+>>>>>>> feature/implement-dounia-saighi-profile
