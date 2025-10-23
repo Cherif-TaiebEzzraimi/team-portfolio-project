@@ -15,7 +15,7 @@
 ## 🌐 Deployed Website
 
 🔗 **GitHub Pages Deployment:**  
-[👉 Click here to visit the live website]()
+[👉 Click here to visit the live website](https://cherif-taiebezzraimi.github.io/team-portfolio-project/)
 
 
 ---
