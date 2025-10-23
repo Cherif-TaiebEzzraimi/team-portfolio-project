@@ -31,6 +31,11 @@ header::before {
   pointer-events: none;
 }
 
+.profile-photo {
+  width: 140px;
+  height: 140px;
+}
+
 .header-content {
   max-width: 1200px;
   margin: 0 auto;
